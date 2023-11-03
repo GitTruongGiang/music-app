@@ -6,7 +6,6 @@ const useMusicPlayer = () => {
   // Play a specific track
   function playTrack(index) {
     if (index === state.currentTrackIndex) {
-      console.log("ok");
       togglePlay();
     } else {
       state.audioPlayer.pause();
